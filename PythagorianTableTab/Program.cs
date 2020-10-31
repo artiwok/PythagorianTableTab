@@ -38,6 +38,7 @@ namespace PythagorianTableTab
             for (int i = firstHorizNum; i <= lastHorizNum; i++)
             {
                 Console.Write(i + "|");
+
                 for (int j = firstVertNum; j <= lastVertNum; j++)
                 {
                     Console.Write($"\t{i * j}");
